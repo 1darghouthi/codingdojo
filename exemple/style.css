@@ -1,0 +1,138 @@
+Skip to content
+Product
+Solutions
+Open Source
+Pricing
+Search
+Sign in
+Sign up
+Alaa-1
+/
+web_fundamentals_pt
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+web_fundamentals_pt/W2D1_CSS_Box_Model/style.css
+@Alaa-1
+Alaa-1 #W2D1 add css intro and box model code and images
+Latest commit 70243e9 5 days ago
+ History
+ 1 contributor
+104 lines (71 sloc)  1.13 KB
+
+/* universal selector */
+/* * {
+    background-color: aquamarine;
+} */
+
+/* button {
+    font-size: 30px;
+} */
+
+/* The id selector
+#button2 {
+    color:blue;
+    background-color: beige;
+}
+#flask {
+    font-size: 8px;
+}
+/* A class selector */
+/* .bold-text{
+    font-weight: 800;
+    color: aqua;
+} */
+
+/* rgb stands for red, green, blue */
+
+.dark {
+    color:rgb(133, 2, 2);
+}
+
+
+/* The Descendant Selector */
+
+/* li a {
+    color: teal;
+} */
+
+/* The adjacent selector */
+
+/* img + a {
+    color: red;
+} */
+
+
+/* The direct child */
+
+/* div > ul {
+} */
+
+/* #user-image {
+    width: 100px;
+} */
+
+/* h1{
+    border: 2px purple dashed;
+    padding: 10px 5px 0 100px;
+            /* t    r  b   l */
+
+
+/* button{
+    padding: 5px;
+} */ 
+
+/* img {
+    width: 10px;
+} */
+
+/* div > img { 
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px; 
+ } */
+
+ /* we can give the same styling to multiple selectors by using a comma */
+ table, th, td {
+    border: 1px solid;
+  }
+
+
+/*! Specificity CSS */
+/* https://specificity.keegan.st/ */
+
+/* ID >
+Classes >
+Element */
+
+.header{
+    color: yellow;
+}
+
+h1 {
+    color:  red;
+}
+
+#strongest{
+    color: green;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+web_fundamentals_pt/style.css at master · Alaa-1/web_fundamentals_pt · GitHub
